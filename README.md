@@ -16,8 +16,8 @@
  - [Vidéo de prise en main](https://drive.google.com/file/d/13Q2XU9oKv6Eza9brkqgTODV2PSDz-XRr/view?usp=sharing)
 
  ### TDs
-  - [TD 1](TD_Connexion_reseau.zip)
-  - [TD 2](TD_Sortie_reseau.zip)
+  - [TD 1](https://github.com/JR-CIEL-1-RESEAU/OSI/archive/refs/tags/avec_zip.zip)
+  - [TD 2](https://github.com/user-attachments/files/18267633/TD_Sortie_reseau.zip)
        
  #### Activité : Test de la fragmentation
 
