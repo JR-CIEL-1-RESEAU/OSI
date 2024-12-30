@@ -54,9 +54,9 @@ services:
     environment:
       FTP_USER_NAME: bob
       FTP_USER_PASS: 12345
-      FTP_USER_HOME: /home/bob
+      FTP_USER_HOME: /home/ftpusers
     volumes:
-      - ./code:/home/bob
+      - ./code:/home/ftpusers
     ports:
       - "21:21"
       - "30000-30009:30000-30009"
