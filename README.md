@@ -48,9 +48,11 @@
 
     - L'objectif de cette activité est d'analyser différentes trames ICMP :Lancez une capture puis exécutez la commande « ping 172.16.0.1. » et enfin arrêtez la capture. par ping 172.16.100.1
 
- - ####  **CAPTURE DES IDENTIFIANTS DE CONNEXIONS D'UN COMPTE FTP**
+ - ####  **CAPTURE DES IDENTIFIANTS DE CONNEXIONS D'UN COMPTE [PURE-FTP](https://github.com/stilliard/docker-pure-ftpd/blob/master/README.md#example-usage-once-inside)**
     - **Verifier** la présence du service FTP et son état `up` via `docker-compose ps`,
-     - **Consulter** ([Wireshark - View FTP usernames and passwords ](https://www.freekb.net/Article?id=133)),
+    - **Lancer** une capture Wireshark sur l'interface réseau.
+    - **Supprimer** 
+    - **Consulter** ([Wireshark - View FTP usernames and passwords ](https://www.freekb.net/Article?id=133)),
     - **Se connecter**  au service FTP à l'aide des identifiants fournis et les capturer avec Wireshark.
 
 
