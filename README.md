@@ -29,11 +29,11 @@
  ### Modele OSI
  - **Visualiser** [Vidéo C'est quoi le TCP_IP _.mp4](https://drive.google.com/file/d/1YvrVi-OUch4QSDTG2ucONhIHlGuUWi6_/view?usp=sharing)
 
- ### Wireshark prise en main
+ ### Prise en main de l'outils de capture et d'analyse réseau `Wireshark`
  - **Consulter** [Interface](https://www.it-connect.fr/decouverte-de-linterface-de-wireshark/)
  - **Consulter** [Vidéo de prise en main](https://drive.google.com/file/d/13Q2XU9oKv6Eza9brkqgTODV2PSDz-XRr/view?usp=sharing)
 
- ### TRAVAIL A REALISER 
+ ### Travaux Dirigés  
   - **Réaliser** [TD 1](https://github.com/JR-CIEL-1-RESEAU/OSI/archive/refs/tags/avec_zip.zip)
   - **Réaliser** [TD 2](https://github.com/user-attachments/files/18267633/TD_Sortie_reseau.zip)
     #### Activité : Test de la fragmentation
@@ -48,12 +48,14 @@
 
     - L'objectif de cette activité est d'analyser différentes trames ICMP :Lancez une capture puis exécutez la commande « ping 172.16.0.1. » et enfin arrêtez la capture. par ping 172.16.100.1
 
- - ####  **CAPTURE DES IDENTIFIANTS DE CONNEXIONS D'UN COMPTE [PURE-FTP](https://github.com/stilliard/docker-pure-ftpd/blob/master/README.md#example-usage-once-inside)**
+ - ####  **Capture d'identifiants d'un compte [PURE-FTP](https://github.com/stilliard/docker-pure-ftpd/blob/master/README.md#example-usage-once-inside) d'un développeur WEB**
+       Afin de développer le site web dont il est en charge, le développeur n'a accès en général qu'à un répertoire du serveur WEB qui publie le site via un service  FTP. L'idée est ici de vous metre à la place d'un Hackeur qui aurait la possibilité de viusalier le traffic réseau sur l'ordinateur de développeur WEB.
+       Vous (le Hackeur) allez essayer de capturer les identifiants de connexions. 
     - **Verifier** la présence du service FTP et son état `up` via `docker-compose ps`,
-    - **Lancer** une capture Wireshark sur l'interface réseau.
-    - **Supprimer** 
+    - **Lancer** une capture Wireshark sur l'interface réseau adéquate.
     - **Consulter** ([Wireshark - View FTP usernames and passwords ](https://www.freekb.net/Article?id=133)),
-    - **Se connecter**  au service FTP à l'aide des identifiants fournis et les capturer avec Wireshark.
+    - **Capturer** les identifiants du développeur WEB avec Wireshark.
+    - **Se connecter**  au service FTP à l'aide des cces identifiants.
 
 
 
