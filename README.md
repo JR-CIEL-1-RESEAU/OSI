@@ -49,7 +49,8 @@
     - L'objectif de cette activité est d'analyser différentes trames ICMP :Lancez une capture puis exécutez la commande « ping 172.16.0.1. » et enfin arrêtez la capture. par ping 172.16.100.1
 
  - ####  **Capture d'identifiants d'un compte [PURE-FTP](https://github.com/stilliard/docker-pure-ftpd/blob/master/README.md#example-usage-once-inside) d'un développeur WEB**
-       Afin de développer le site web dont il est en charge, le développeur n'a accès en général qu'à un répertoire du serveur WEB qui publie le site via un service  FTP. L'idée est ici de vous metre à la place d'un Hackeur qui aurait la possibilité de viusalier le traffic réseau sur l'ordinateur de développeur WEB.
+       Afin de développer le site web dont il est en charge, le développeur n'a accès en général qu'à un répertoire du serveur WEB qui publie le site via un service  FTP.
+       L'idée est ici de vous metre à la place d'un Hackeur qui aurait la possibilité de viusalier le traffic réseau sur l'ordinateur de développeur WEB.
        Vous (le Hackeur) allez essayer de capturer les identifiants de connexions. 
     - **Verifier** la présence du service FTP et son état `up` via `docker-compose ps`,
     - **Lancer** une capture Wireshark sur l'interface réseau adéquate.
